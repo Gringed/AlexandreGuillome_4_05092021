@@ -1040,3 +1040,14 @@ h4 {
         text-align: center;
     }
 }
+
+/* Modifications apportées */
+.citation__head
+{
+    font-size: 20px;
+    color: #575757!important;
+}
+.citation__author
+{
+    font-size: 14px;
+}
