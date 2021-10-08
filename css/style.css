@@ -509,26 +509,6 @@ button {
     box-shadow: none;
 }
 
-.scrollToTop {
-    width: 40px;
-    height: 40px;
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    opacity: 0;
-    z-index: 500;
-    transition: all .3s ease-in-out;
-}
-
-.scrollToTop span {
-    margin-top: 6px;
-}
-
-.showScrollTop {
-    font-size: 14px;
-    opacity: 1;
-}
-
 a[data-lightbox] {
     position: relative;
     display: block;
@@ -676,7 +656,7 @@ a {
 }
 
 p {
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
@@ -737,6 +717,7 @@ h4 {
 
 .white {
     color: #FFFFFF!important;
+    text-shadow: 0px 1px 5px black;
 }
 
 .portfolio-thumb {
